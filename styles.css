@@ -1,0 +1,112 @@
+body {
+  background-image: url("image/pink beach.jpg");
+  background-size: cover;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.weather-app {
+  margin: 0 auto;
+  max-width: 50%;
+  background: rgb(236, 235, 231);
+}
+
+header {
+  padding: 25px;
+}
+h1 {
+  color: #5497a3;
+  font-size: 55px;
+  font-family: "Noto Sans", sans-serif;
+  text-align: start;
+}
+.search-btn {
+  background-color: #fabfb3;
+  border-color: #815b75;
+  font-weight: 500;
+}
+.search-btn:hover {
+  background-color: #f39d8b;
+  color: #7a4f6d;
+  border: #b18ea6;
+}
+#current-city-button {
+  background-color: #76ccca;
+  font-weight: 500;
+  border-color: #569190;
+}
+#current-city-button:hover {
+  background-color: #43c0be;
+  color: #7a4f6d;
+}
+main {
+  margin: 30px 0;
+  text-align: center;
+  padding: 25px;
+}
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.7;
+  font-size: 27px;
+  font-weight: 400;
+  margin: 0;
+  color: #735a75;
+}
+.main-icon {
+  font-size: 50px;
+}
+.current-temprature {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 50px;
+  color: #5e3d5f;
+}
+
+.main-part {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.wind,
+.humidity {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2;
+  color: #5e3d5f;
+  font-size: 20px;
+}
+.fa-wind {
+  color: #52a6bb;
+}
+.fa-droplet {
+  color: #446ab1;
+}
+
+footer {
+  padding: 25px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+}
+.future-temprature {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  color: #5e3d5f;
+}
+.future-date {
+  font-weight: 900;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  color: #5e3d5f;
+}
+
+.future-weather-icon {
+  font-size: 35px;
+}
