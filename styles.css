@@ -118,6 +118,7 @@ li {
 .author {
   font-family: "PT Mono", monospace;
   color: #735a75;
+  margin-left: 12px;
 }
 .author a {
   color: #5497a3;
