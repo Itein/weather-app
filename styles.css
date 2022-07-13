@@ -115,3 +115,10 @@ li {
 .future-weather-icon {
   font-size: 35px;
 }
+.author {
+  font-family: "PT Mono", monospace;
+  color: #735a75;
+}
+.author a {
+  color: #5497a3;
+}
