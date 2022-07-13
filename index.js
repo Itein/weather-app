@@ -79,6 +79,7 @@ currentCityButton.addEventListener("click", userLocationDetector);
 
 //City Search
 function showWeather(response) {
+  console.log(response);
   let currentTemp = Math.round(response.data.main.temp);
   let currentTempInUserCity = document.querySelector(".current-temprature");
   currentTempInUserCity.innerHTML = `${currentTemp}°C`;
@@ -94,6 +95,13 @@ function showWeather(response) {
   let currentCity = response.data.name;
   let city = document.querySelector("h1");
   city.innerHTML = currentCity;
+
+  let weatherIcon = response.data.weather[0].icon;
+  console.log(weatherIcon);
+  let img = new Image();
+  img.src = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
+
+  document.querySelector(".main-icon").appendChild(img);
 }
 
 function citySearch(event) {
