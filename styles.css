@@ -54,6 +54,13 @@ h2 {
   color: #735a75;
 }
 
+.main-icon img {
+  border-radius: 50%;
+  background-color: #c9bec2;
+  position: relative;
+  bottom: 30px;
+  padding: 10px;
+}
 .current-temprature {
   font-family: "Noto Sans", sans-serif;
   font-size: 50px;
