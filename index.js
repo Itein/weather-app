@@ -100,8 +100,12 @@ function showWeather(response) {
   console.log(weatherIcon);
   let img = new Image();
   img.src = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
-
-  document.querySelector(".main-icon").appendChild(img);
+  let icon = document.querySelector(".main-icon");
+  icon.appendChild(img);
+  let existingImage = icon.getElementsByTagName("img");
+  if (existingImage.length) {
+    existingImage[0].parentNode.replaceChild(img, existingImage[0]);
+  }
 }
 
 function citySearch(event) {
